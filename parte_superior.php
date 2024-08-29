@@ -55,15 +55,19 @@
                 </ul>
             </li>
         </ul>
-
         <div class="barra-login">
             <input type="text" id="search" placeholder="Buscar">
-            <div class="carrito">
-                <h1>Comprar</h1>
+            
+
+
+            <div id="cart">
+                <h2>Carrito de Compras</h2>
+                <ul id="cart-items"></ul>
+                <p>Total: $<span id="cart-total">0</span></p>
+                <button id="checkout">Comprar</button>
             </div>
-            <div class="login">
-                <h1>Iniciar sesión</h1>
-            </div>
+            
+
         </div>
     </div>
 
@@ -74,7 +78,7 @@
 
     <div class="video-container">
         <video autoplay muted loop id="background-video">
-            <source src="/videos/nebula.1920x1080.mp4" type="video/mp4">
+            <source src="videos\nebula.1920x1080.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="content">

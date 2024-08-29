@@ -22,3 +22,4 @@
 
 <script src="./script/Main.js"></script>
 <script src="./script/accordion.js"></script>
+<script src="./script/carrito.js"></script>
